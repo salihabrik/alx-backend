@@ -4,6 +4,7 @@ This module contains a helper function
 for a given page number and page size.
 """
 
+
 def index_range(page: int, page_size: int) -> tuple:
     """
     Calculate the start and end indices for a given page number and page size.
