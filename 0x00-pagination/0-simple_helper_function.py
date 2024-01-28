@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This module contains a helper function 
+This module contains a helper function that calculates the start and end
 for a given page number and page size.
 """
 
