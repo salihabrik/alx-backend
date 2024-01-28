@@ -16,6 +16,7 @@ def index_range(page: int, page_size: int) -> tuple:
 
     return start_index, end_index
 
+
 if __name__ == "__main__":
     # Example Usage
     res = index_range(1, 7)
