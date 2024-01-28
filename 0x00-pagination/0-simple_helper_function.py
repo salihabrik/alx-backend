@@ -15,14 +15,3 @@ def index_range(page: int, page_size: int) -> tuple:
     end_index = start_index + page_size - 1
 
     return start_index, end_index
-
-
-if __name__ == "__main__":
-    # Example Usage
-    res = index_range(1, 7)
-    print(type(res))
-    print(res)
-
-    res = index_range(page=3, page_size=15)
-    print(type(res))
-    print(res)
