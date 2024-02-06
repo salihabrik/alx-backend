@@ -10,6 +10,8 @@ from flask import Flask, render_template, request, g
 class Config:
     """Represents a Flask Babel configuration.
     """
+    
+    
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
