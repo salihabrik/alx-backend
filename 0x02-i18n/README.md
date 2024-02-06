@@ -1,6 +1,7 @@
 # Flask i18n Project
 
 
+
 ## Overview
 This project focuses on internationalization (i18n) and localization in a Flask web application. The goal is to create a basic Flask app that can display content in different languages based on user preferences and URL parameters.
 
