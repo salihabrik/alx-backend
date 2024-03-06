@@ -88,11 +88,4 @@ const resetAvailableSeats = async (initialSeatsCount) => {
 };
 
 app.listen(PORT, () => {
-  resetAvailableSeats(process.env.INITIAL_SEATS_COUNT || INITIAL_SEATS_COUNT)
-    .then(() => {
-      reservationEnabled = true;
-      console.log(`API available on localhost port ${PORT}`);
-    });
-});
-
-export default app;
+  resetAvailableSeats(proces
